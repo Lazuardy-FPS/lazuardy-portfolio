@@ -1,0 +1,24 @@
+#downloadlink{
+	display:block;
+	margin:0 auto;
+	text-align: center;
+}
+
+.posts_porto {
+	display:block;
+	padding:2%;
+    text-align: center; /* Justify-align the text within the section */
+}
+
+.posts_porto p {
+	text-align: justify;
+}
+
+.portoimage {
+	text-align: center;
+ 	width:50%
+}
+
+.keywords {
+	padding-left: 0;
+}
