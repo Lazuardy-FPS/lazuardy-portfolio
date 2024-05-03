@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta lang="en">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=0.5">
+		<title>Portofolio - Lazuardy Sulaeman</title>
+		<link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/porto.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-pVZWywSdQPCemAdxiXrn7EC0D0/f5XblP2n5Rl4Ku1p6aWrjqLcGCGiL/PqV2WgavmEgwvz8sUO/iSlg8Dd1qQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    
+		<!-- Include the Leaflet library -->
+		<script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"></script>
+
+		<!-- leaflet style-->
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css"/>
+
+		<!-- leaflet draw -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	</head>
+
+  <body>
+    <!-- 1. Navbar -->
+    <nav id="navbar">
+      <ul class="links">
+        <button id="openside" class="w3-button w3-black w3-xlarge" onclick="w3_open()">&#9776;</button>
+        <a href=".\index.html">Home</a>
+        <a href=".\about.html">About</a>
+        <a href="#main" class="active">Portofolio</a>
+        <!-- <select id="languageid" class="languagestyle" onchange="changeLanguage()">
+          <option value="en" >English</option>
+          <option value="de">Deutsch</option>
+        </select> -->
+      </ul>
+      <ul class="icons">
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=lazuardy.fps@gmail.com" target="_blank" class="fa fa-lg fa-envelope" style="height: 37px;"><span class="label"></span></a>
+        <a href="https://www.linkedin.com/in/lazuardy-sulaeman/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIN</span></a>
+        <a href="https://github.com/Lazuardy-FPS" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a>
+      </ul>
+    </nav>
+
+    <!-- 2. Sidebar -->
+    <div id="sidebar" class="w3-sidebar w3-bar-block w3-card w3-animate-left"  >
+      <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+      <a href="#article1" class="w3-bar-item w3-button">Web-GIS for Natural Disaster</a>
+      <a href="#article2" class="w3-bar-item w3-button">Geothermal Hot Spring Zone Detection</a>
+      <a href="#article3" class="w3-bar-item w3-button">Hydrological Analysis</a>
+      <a href="#article4" class="w3-bar-item w3-button">Suitability for Photovoltaic-Solar</a>
+      <a href="#article5" class="w3-bar-item w3-button">3D Semantic Segmentation-Machine Learning</a>
+    </div>
+
+    <!-- 3. Main -->
+    <div id="main">
+
+      <!-- 3.1 content -->
+     <section id="article1" class="separator">
+        <h2>Web-GIS for Natural Disaster</h2>
+      </section>
+      <section class="posts_porto">
+        <a><img src="images/webgis.jpg" alt="WebGIS-for-disaster" class="portoimage"></a>
+        <p>Natural disaster occurrences have been rising for the past decades. It causes severe damage both in human properties and lives. To minimize the risk caused by disaster and accelerate the recovery, the accessibility of geospatial data is critical. WebGIS utilizes the internet to make the geospatial data accessible to wider audience. In addition, the emergence of novel standards from OGC APIs also accelerates the accessibility of geospatial data. However, the abundance of Geospatial data requires a better performance of the webGIS. Ldproxy as a tool that follows OGC API standards could be an alternative to traditional tools such as Geoserver. This research aims to make a WebGIS Application for accessing geospatial data for disaster needs and to compare the performance of Ldproxy and Geoserver as a Web Map Server. The method is to build a Single Page Application (SPA) using open-source data from Google Earth Engine (GEE) and OpenStreetMap (OSM). The functionalities of the webGIS enable users to retrieve OSM and GEE data and examine the impact of the disasters. The performance of Ldproxy and Geoserver is tested using Google Light House for comparison. The parameters that are tested are Speed Index, Total Blocking Time, Time to Interactive, Max Potential First Input Delay, Network Server Latency, and Total Byte Weight. In result, Ldproxy shows slower performance in NSL compared to Geoserver. However, it offers an mvt feature format that makes the feature data can be loaded more efficiently and quickly.
+        </p>
+        <ul class="keywords">
+          <p> <strong>Awards:</strong> Selected for oral presentation at <a href="https://iccgis2024.cartography-gis.com/" target="blank">9ICCGIS 2024 Conference in Nessebar, Bulgaria, on 16-21 June</a></p>
+          <p> <strong>Keywords:</strong> Natural Disasters, Open Source Geospatial Data, WebGIS, OGC API Standards, Ldproxy, Performance Comparison </p>
+          <p> <strong>Key-skills:</strong> Web-GIS Development, html, css, javascript, leaflet, nodejs, PostgreSQL, OpenStreetMap, Google Earth Engine, Remote Sensing</p>
+          <a id ="downloadlink" href=".\assets\file\webgis.pdf" download="webgis.pdf" ><strong>Download PDF</strong></a>   
+        </ul>
+      </section>
+
+      <section id="article2" class="separator">
+        <h2>Geothermal Hot Spring Zone Detection Technique Using Multi-sensor Satellite Imagery and Field Observation</h2>
+      </section>
+
+      <section class="posts_porto">
+          <a><img src="images/geothermal_rs1.png" alt="" class="portoimage"/></a>
+          <p>Geothermal exploration activities in a very large area require a lot of time and manpower. A mapping technique can be used to minimize time and manpower at field by optimizing the use of remote sensing technology. This paper is aimed to identify the availability of geothermal hot springs zones using multisensory images from Landsat-8 Advanced Land Imager (OLI), Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Thermal Infrared Radiometer (TIR), and Synthetic Aperture Radar (SAR) of Sentinel-1. The imagery data were prepared and used according to their respective uses, and then they will be verified by field geological data including location of hot springs and geological structures. Baolan Subdistrict and Galang Subdistrict, Tolitoli District, Central Sulawesi Province was selected as study area to obtain the effectiveness of multisensory technique under thick vegetation cover and limited access. The geological mapping area was focused in the south of Tolitoli City with coverage area about 50 km2. Surface thermal anomaly detection was performed using ASTER TIR by calculating the Land Surface Temperature (LST) and combined with wetness detection using Landsat-8 OLI. In addition, the Sentinel-1 images were used to detect lineament related to geological structures on the surface served as fluid path flows from sub-surface to surface. Ground truthing was performed by mapping hot springs at field and served as verification to the remote sensing results. Then, geological interpretation of geothermal system availability under the study area was performed. The multisensory image analyses verified by field mapping of the hot springs zone showed high effectivity to localize the possible area for surface manifestations. Meanwhile, the lineament related to geological structures based on Sentinel-1 image detected successfully a sinistral strike slip and sinistral normal faults. Accordingly, the geothermal manifestation in the study area was a discharge zone presented by the existence of hot springs and strike-slip faults acted as fractures permeability.</p>
+          <ul class="keywords">
+            <p> <strong>Awards:</strong> Published in <a href="https://buletingeologi.com/index.php/buletin-geologi/article/view/71" target="blank">Bulletin of Geology in October 2019</a></p>
+            <p> <strong>Keywords:</strong> Geothermal, Remote Sensing, Image Processing, Surface Temperature</p>
+            <p> <strong>Key-skills:</strong> Remote Sensing, Image Processing, Image Analysis, Envi, ArcGIS, GIS, Geological Field Mapping</p>
+            <a id ="downloadlink" href=".\assets\file\remotesensing_surfacetemperature.pdf" download="remotesensing_surfacetemperature.pdf" ><strong>Download PDF</strong></a>
+            <p id = "downloadlink" class="notes">(Only in Bahasa Indonesian)</p>     
+          </ul>
+      </section>
+
+      <section id="article3" class="separator">
+        <h2>Hydrological Analysis for a Dam Construction Project</h2>
+      </section>
+      <section class="posts_porto">
+        <section >
+          <a class="portoimage"><img src="images/Dam.jpg" alt="" class="portoimage"></a>
+          <p> This project aims to analyze the unit hydrograph or the runoff response of a watershed in a rainfall event, to model the Dam area and volume in 2 cases, Dam elevations 847m and 880m, and to see it in 3D view mode.
+            For the first task, DEM is generated from the given data: river, height point, and contour vector data. From the DEM, the following products are generated: DEM Fill -> Flow Direction -> Flow Accumulation -> River Order.
+            After that, the given Pour Point and Flow Direction are combined to make the Watershed area. From The watershed, the Flow length is produced. Then Flow velocity is made by using the given Manning Value K, Hydraulic Radius, and slope generated from DEM. From the flow length and flow velocity, Flow time can be generated. Then from it, The Unit hydrograph is analyzed using the time histogram and given rainfall event.
+            For the calculation of water area, surface covered by water area, and water volume, TIN surface is needed, it is generated from DEM, and contour lines in 880m and 847 m elevation are used. Then Polygon Volume is done to calculate all those parameters.
+             The 3D view is done by ArcView
+          </p>
+          <ul class="keywords">
+            <p> <strong>Keywords:</strong>  Hydrological Modeling, Map Algebra, Viershed Analysis, Dam Volume Calculations, 3D Views. </p>
+            <p> <strong>Key-skills:</strong> GIS Hydrology Analysis, Flow length Generation, Watershed Generation, Flow time Map Generation, 3D Model Data Visualization, ArcGIS/QGIS </p>
+            <a id ="downloadlink" href=".\assets\file\HydrologicLinachDam.pdf" download="remotesensing_surfacetemperature.pdf" ><strong>Download PDF</strong></a>     
+          </ul>
+        </section>   
+      </section>
+
+      <section id="article4" class="separator">
+        <h2>Suitability for Photovoltaic-Solar Panels and 3D City Model from Lidar Data</h2>
+      </section>
+      <section class="posts_porto">
+        <a><img src="images/photovoltaic.jpg" alt="" class="portoimage"></a>
+          <p>Point Cloud data from Lidar and building footprint are used for making the raster roof model, which helps in analyzing the roof suitability for the solar panel. 
+            The analysis takes into consideration the roof slope, slope direction, flatness, and roof area.
+            AHP-weighted overlay method is conducted and solar potential also calculated.
+            It is suceeded to classify building into 5 category from most suitable and less suitable and to calculate the potential energy generated in each category.  
+          </p>
+          <ul class="keywords">
+            <p> <strong>Keywords:</strong> Location intelligence, Renewable Energy, Lidar data Processing, Raster Analysis, Surface Tools from Spatial Analyst, 3D City Model </p>
+            <p> <strong>Key-skills:</strong> GIS Location Suitability Analysis, Analytic Hierarchy Process, Weighted Overlay, Raster Processing, 3D City Model, Point-Cloud, ArcGIS/QGIS</p>
+            <a id ="downloadlink" href=".\assets\file\SuitabilityPhotovoltaicfromLidarn.pdf" download="remotesensing_surfacetemperature.pdf" ><strong>Download PDF</strong></a>     
+          </ul>
+      </section>
+
+      <section id="article5" class="separator">
+        <h2>3D Semantic Segmentation of Urban Areas</h2>
+      </section>
+      <section class="posts_porto">
+        <a><img src="images/rss.png" alt="" class="portoimage"></a>
+          <p>This project aims to implement semantic segmentation of 3D point clouds using the PointNet++ network. The objective is to establish a balanced hyperparameter configuration for optimum segmentation. Experiments with various training parameter combinations have been done to optimize the network's performance. The dataset consists of airborne lidar data and corresponding semantic labels, covering areas in Jacksonville, Florida, and Omaha, Nebraska, USA. This project’s input is 120 ASCII text files, including x,y,z, and separated label files, with 110 for training and 10 for testing the network. The hyperparameters investigated here are NumberOfPoints, BlockSize, Epoch, and mini-batch size. The number of training data is also changed to see the effect on the accuracy. Test data 4 (JAX_328) and test data 10 (OMA_290) are the data to assess the accuracy. The highest accuracy achieved for test data 4 and 10 is 0.92 and 0.87, respectively. The best configuration is 50.000 NumberofPoints, 150 blocksize, 35 epochs, and 60 training data. The accuracy is mainly affected by the number of points and the number of train data.  
+          </p>
+          <ul class="keywords">
+            <p> <strong>Keywords:</strong> Semantic segmentation, 3D point clouds, PointNet++, Training hyperparameters, Semantic labels, Spatial data analysis. </p>
+            <p> <strong>Key-skills:</strong> Machine Learning, 3D Point-Cloud Processing, Matlab</p>
+            <a id ="downloadlink" href=".\assets\file\RSS.pdf" download="RSS.pdf" ><strong>Download PDF</strong></a>     
+          </ul>
+      </section>
+    </div> <!-- main -->
+
+    <!-- 4. Footer -->
+    <footer id="footer">
+      <section class="split contact">
+        <section class="alt">
+          <h3>Address</h3>
+          <p>Brückenstrasse 23, 70376<br />
+          Stuttgart, Germany</p>
+        </section>
+        <section>
+          <h3>Phone</h3>
+          <p>+49 15213469802</a></p>
+        </section>
+        <section>
+          <h3>Email</h3>
+          <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=lazuardy.fps@gmail.com" target="_blank">lazuardy.fps@gmail.com</a></p>
+        </section>
+        <section>
+          <h3>Social</h3>
+          <ul class="icon footer">
+            <a href="https://www.linkedin.com/in/lazuardy-sulaeman/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIN</span></a>
+            <a href="https://github.com/Lazuardy-FPS" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a>
+          </ul>
+        </section>
+      </section>
+    </footer>
+
+    <!-- 5Copyright -->
+    <div id="copyright">
+      <ul><li>&copy; Lazuardy Sulaeman</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+    </div>
+    
+    <!-- 6. Javascript -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
