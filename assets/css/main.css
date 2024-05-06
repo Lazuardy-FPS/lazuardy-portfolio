@@ -65,7 +65,16 @@ body {
     margin-top: 5%;
 }
 
-
+#navbar .goog-te-gadget {
+    /* display: flex; */
+    font-family: arial;
+    font-size: 5px;
+    color: #666;
+    white-space: nowrap
+}
+#navbar .VIpgJd-ZVi9od-l4eHX-hSRGPd  {
+		padding-top: 0;
+	}
   /*3. sidebar */
   #openside {
 	position: absolute;
